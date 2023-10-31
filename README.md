@@ -8,6 +8,8 @@
 
 * [Trello board for the project](https://trello.com/b/pyEgMvHt/udacity-project)
 
+* [file guthub status badge]([![CI](https://github.com/ANGIECANCHON/project_azure_agile/actions/workflows/main.yml/badge.svg)](https://github.com/ANGIECANCHON/project_azure_agile/actions/workflows/main.yml))
+
 ## Instructions
 
 ### CI: Set up azure cloud shell
@@ -59,6 +61,14 @@ pass all the git pipelane
 
 ![prediction postman](./img/predictionok.png)
 ![prediction console](./img/make_prediction.png)
+
+* Locust Files Run
+
+    first you need to install locust 
+    Next see graphics
+
+![locust graph](./img/locust_grafica.png)
+![locust metric](./img/locust_metrica.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
