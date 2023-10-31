@@ -3,13 +3,21 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
-<TODO: Project Plan
 
-* Trello Board -> https://trello.com/b/pyEgMvHt/udacity-project
+* [Spreadsheet Project plan](https://docs.google.com/spreadsheets/d/1LS-WWEUKcpfdR09cVbO_Uh7cINr7j_SfatVX1AcOg2I/edit?usp=sharing)
+
+* [Trello board for the project](https://trello.com/b/pyEgMvHt/udacity-project)
 
 ## Instructions
 
-<TODO:  
+### CI: Set up azure cloud shell
+
+1. Create the following files:
+  - A Makefile to build and test the application.
+  - A requirements file with the packages needed.
+  - A file with some functions.
+  - A file to test the functions of the previous file.
+
 * Architectural Diagram 
 
 ![flow](./img/flowDiagram.png)
@@ -26,12 +34,16 @@ pipelane running ok
 
 add ssh:
 
-![pipelane](./img/ssh-console-gen.png)
-![pipelane](./img/ssh-git.png)
+![ssh key gen](./img/ssh-console-gen.png)
+![ssh](./img/ssh-git.png)
 
 clone repo
 
-![pipelane](./img/clone_repo.png)
+![clone repo](./img/clone_repo.png)
+
+Run Make All
+
+![make all](./img/makeall.jpeg)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -41,7 +53,12 @@ pass all the git pipelane
 
 * Output of a test run
 
-![pipelane](./img/test_run.png)
+![test run](./img/test_run.png)
+
+* Prediction OK postman
+
+![prediction postman](./img/predictionok.png)
+![prediction console](./img/make_prediction.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
